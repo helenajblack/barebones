@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <script src="vendors/angular/angular.min.js"></script>
-  <script src="vendors/angular-route/angular-route.min.js"></script>
   <script src="scripts/controller.js"></script>
   <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css" media="screen" />
   <link rel="stylesheet" href="/styles/styles.css">
@@ -12,8 +11,10 @@
   <title></title>
 </head>
 
-<body ng-app="appName as an" ng-controller: "controllerName">
+<body ng-app="myApp">
+  <div class="controllerDiv" ng-controller="HttpController as hc">
 
+  </div>
   <!-- <ng-view></ng-view> -->
 
   <footer>
