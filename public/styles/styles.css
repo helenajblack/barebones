@@ -1,0 +1,63 @@
+body, html {
+  background-color: #31bbd9;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+#gallery {
+  max-width: 80%;
+  height: 65%;
+  margin: auto;
+  background-color: white;
+  padding-top: 5%;
+}
+
+h1 {
+  font-size: 40pt;
+  font-weight: 800;
+  margin-top: 0px;
+}
+
+p, h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.photo {
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  height: 40%;
+  display: inline-block;
+}
+
+button {
+  background-color: #31bbd9;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: #0b474d;
+  padding: 4px 12px;
+  transition-duration: 200ms;
+  margin: auto;
+  display: block;
+}
+
+button:hover {
+  background-color: #2698b1;
+}
+
+button:active {
+  color: white;
+}
+
+td {
+  height: 350px;
+  width: 350px;
+  text-align: center;
+  padding: 50px;
+}
