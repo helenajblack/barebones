@@ -11,14 +11,12 @@
   <title></title>
 </head>
 
-<body ng-app="myApp">
-  <div class="controllerDiv" ng-controller="HttpController as hc">
-
+<body ng-app="myApp" ng-controller="HttpController as hc">
+  <div class="imageDiv">
+    <img ng-src="{{hc.image}}" alt="">
   </div>
-  <!-- <ng-view></ng-view> -->
-
-  <footer>
-  </footer>
+  <input type="text" name="" value="" placeholder="Enter keywords here">
+  <button ng-click="hc.getGiphy()">Get Gif</button>
 </body>
 
 </html>
