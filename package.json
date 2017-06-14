@@ -1,7 +1,7 @@
 {
   "name": "barebones",
   "version": "1.0.0",
-  "description": "",
+  "description": "+ GOAL: Create a barebones template to use for projects. Template will allow for changes, but is created with the idea that express, body-parser, pg, angular, path, and ____ will be installed.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
